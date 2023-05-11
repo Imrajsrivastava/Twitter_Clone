@@ -4,6 +4,7 @@ const port = 3003;
 const midlewear = require("./midlewear");
 const path = require("path");
 const bodyParser = require("body-parser")
+const mongoose = require("./database.js")
 
 const server = app.listen(port,()=>console.log("server runig at port",port));
 
